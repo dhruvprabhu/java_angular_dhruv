@@ -1,3 +1,10 @@
+#BACKEND
+Is in demo folder
+
+#FRONTEND 
+Is in src folder
+
+
 # FirstApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.11.
