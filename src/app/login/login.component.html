@@ -1,0 +1,35 @@
+<div class="parent-container">
+  <div class="login-container">
+    <h2>LOGIN</h2>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Enter your username</mat-label>
+      <input 
+      matInput 
+      [(ngModel)]="username" 
+      
+      />
+    </mat-form-field>
+    <mat-form-field appearance="outline">
+      <mat-label>Enter your password</mat-label>
+      <input
+        matInput
+        [(ngModel)]="password"
+        [type]="hide ? 'password' : 'text'"
+        
+      />
+      <button mat-icon-button matSuffix (click)="hide = !hide">
+        <mat-icon>{{ hide ? "visibility_off" : "visibility" }}</mat-icon>
+      </button>
+    </mat-form-field>
+
+    <button
+      class="mat-button-login"
+      mat-stroked-button 
+      (click)="onLogin()"   
+      [disabled]="!username || !password"
+    >
+      Login
+    </button>
+  </div>
+</div>

@@ -1,0 +1,68 @@
+- .angular
+  - cache
+    - 17.3.11
+      - first_app
+        - .tsbuildinfo
+      - vite
+        - deps
+          - @angular_common.js
+          - @angular_common.js.map
+          - @angular_core.js
+          - @angular_core.js.map
+          - @angular_forms.js
+          - @angular_forms.js.map
+          - @angular_platform-browser.js
+          - @angular_platform-browser.js.map
+          - @angular_router.js
+          - @angular_router.js.map
+          - _metadata.json
+          - chunk-FLSG4Q2H.js
+          - chunk-FLSG4Q2H.js.map
+          - chunk-HAZJUFL6.js
+          - chunk-HAZJUFL6.js.map
+          - chunk-JCCGAHCX.js
+          - chunk-JCCGAHCX.js.map
+          - package.json
+- .editorconfig
+- .gitignore
+- README.md
+- angular.json
+- package-lock.json
+- package.json
+- server.ts
+- src
+  - app
+    - app.component.css
+    - app.component.html
+    - app.component.spec.ts
+    - app.component.ts
+    - app.config.server.ts
+    - app.config.ts
+    - app.routes.ts
+    - home
+      - add-user
+        - add-user.component.css
+        - add-user.component.html
+        - add-user.component.ts
+      - home.component.css
+      - home.component.html
+      - home.component.ts
+      - user-list
+        - user-list.component.css
+        - user-list.component.html
+        - user-list.component.ts
+    - login
+      - login.component.css
+      - login.component.html
+      - login.component.ts
+    - user.service.ts
+  - assets
+    - .gitkeep
+  - favicon.ico
+  - index.html
+  - main.server.ts
+  - main.ts
+  - styles.css
+- tsconfig.app.json
+- tsconfig.json
+- tsconfig.spec.json

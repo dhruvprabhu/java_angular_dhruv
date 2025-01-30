@@ -1,0 +1,61 @@
+.dialog-container {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  border: 5px black;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  
+}
+
+.header {
+  background-color: black;
+  color: greenyellow;
+  border-bottom: 1px solid #ccc;
+  margin-bottom:  10px;
+}
+
+
+.input-fields{
+  width: 100%;
+}
+
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.submit-btn{
+  background-color: blue;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+}
+
+.cancel-btn{
+  background-color: orangered;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+  
+}
+
+.submit-btn:hover {
+  background-color: greenyellow;
+  color: black;
+  padding: 10px 15px;
+  border-radius: 4px;
+  
+}
+.cancel-btn:hover {
+  background-color: red;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+  
+}
